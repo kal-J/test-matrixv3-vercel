@@ -138,7 +138,7 @@ const LoginForm: React.FC = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://37.60.249.24:8195/api/users/login', {
+      const response = await axios.post('37.60.249.24:8195/api/users/login', {
         username: email,
         password
       }, {
